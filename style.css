@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2%;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+    justify-content: center;
+}
+
+.nasi {
+    width: 35%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.header{
+    padding-bottom: 20px;
+    margin: 2%;
+}
+
+.header .title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -30px;
+}
+
+.header ul {
+    margin-left: -70px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+}
+
+.wiki {
+    color: yellow;
+    text-align: justify;
+    padding-top: 10px;
+    margin-top: -695px;
+    margin-left: 40%;
+    width: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    float: left;
+}
+
+#produksi_nasi {
+    color: yellow;
+    margin-left: 20px;
+}
+
+.jenis li{
+    margin-right: 90%;
+    list-style: none;
+}
+.go:hover{
+    color: red;
+    border: 1px solid red;
+}
+
+.ku:hover{
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.hi:hover{
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.bi:hover{
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+
+.footer {
+    height: 110px;
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+}
+
+.cc {margin-top: 100px;}
